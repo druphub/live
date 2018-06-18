@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import 'partials/button';
+@import 'partials/navigation';
+
+@mixin big-title-style{
+    margin: 5rem auto;
+    color: #FFFFFF;
+}
+@mixin home-hero{
+    align-content: center;
+        text-align: center;
+        margin:7rem auto;
+        color:#fff;
+}
+
+* ul li{
+    list-style: none;
+}
+* a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0px;
+
+}
+
+#particle{
+    background: linear-gradient(129deg, #007FD3 20%, #c6dfe8); 
+}
+
+.home-header{
+    padding:10vh;
+    min-height: 50vh;
+    position: absolute;
+    right:0px;
+    left:0;
+    .home-hero{
+        @include home-hero;
+        h1{
+            font-size: 4rem;
+            font-weight: 600;
+        }
+        p{
+            font-size:25px;
+
+        }
+    }
+
+}
+.hero-title{
+    max-width:80%;
+    line-height: 3.7rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-top:-0.5rem;
+}
+.subtitle{
+    line-height: 5rem;
+    font-size:1.3rem;
+    color:#cacacf;
+    
+}
+.main__1{
+    background: #005160;
+    
+}
+.homepage-bigtext{
+    margin-left:50px;
+}
+.nkara-bg{
+    background:url('/assets/img/bg-nkara.png') repeat-y;
+    height: 50vh;
+    width:50%;  
+    padding: 20px;
+    display: block;  
+}
+section{
+    margin-top: 0vh;
+}
+footer{
+    background-color: #195061;
+    margin-top: 50px;
+
+    ul li{
+        line-height: 2rem;
+        a{
+            color: #1dd3a5;
+        }
+    }   
+}
+.immersive-section{
+    background: linear-gradient(129deg,#007FD3 20%,#c6dfe8);       
+}
+.immersive{
+    @include big-title-style;
+    margin: auto 5%;
+}
+.immersive-title{
+    text-align: center;
+    
+    h2{
+        font-size: 3.5rem;
+    }
+    p{
+        font-size:1rem;
+    }
+}
+.immersive-body{
+    margin:0 10px 50px 70px;
+    color:#404040;
+}
+ .immersive-card{
+     display: table;
+     background-color: #fff;
+     padding:30px 60px;
+     margin:20px;
+     display: block;
+     height: 30vh;
+     border-radius: 5px;
+     line-height: 1.5rem;
+     font-size: 17px;
+     .icon{
+         display: table-cell;
+         padding:30px;
+         float: left; 
+     }
+ }
+.job-ads{
+    text-align: center;
+    h2{
+        @include big-title-style;
+    }
+    h3{
+        font-size: 3.8rem;
+        font-weight: 400;        
+    }
+}
+.img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.core-values{
+    margin:20px 10rem;
+  }
+  .core-values-header{
+    font-size:1.5rem;
+     span{
+    color: #1dd3a5;
+    font-size:18px;
+    font-weight:600;
+  }
+}
+
+
+
+@import 'partials/about-us'; 
+
+
+.ankara{
+    background: url('/assets/img/bg-nkara.jpg') repeat-x;
+    height: 15px;
+    width:100%;
+    position: fixed;
+
+  }

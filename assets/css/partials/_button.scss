@@ -1,0 +1,18 @@
+$btn-color: #3ecf8e;
+.btn{
+    padding:0 14px;
+    line-height: 5vh;
+    border-radius: 4px;
+    background: $btn-color;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .15 all ease-in;
+    height: 40px;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: translateY(-1);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 
+                0 3px 6px rgba(0,0,0,.08)
+}
