@@ -101,7 +101,7 @@ body {
 }
 
 .nkara-bg {
-  background: url("/assets/img/bg-nkara.png") repeat-y;
+  background: url("/v1/live/assets/img/bg-nkara.png") repeat-y;
   height: 50vh;
   width: 50%;
   padding: 20px;
@@ -225,7 +225,7 @@ footer ul li a {
 }
 
 .ankara {
-  background: url("/assets/img/bg-nkara.jpg") repeat-x;
+  background: url("/v1/live/assets/img/bg-nkara.jpg") repeat-x;
   height: 15px;
   width: 100%;
   position: fixed;
